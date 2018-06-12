@@ -1,0 +1,456 @@
+DEBUG 2018-06-12 16:43:51,896 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-06-12 16:43:52,537 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-06-12 16:43:52,677 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MPACorePhoneBook.Web.Startup.MPACorePhoneBookWebMvcModule, MPACorePhoneBook.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-06-12 16:43:52,683 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MPACorePhoneBook.MPACorePhoneBookWebCoreModule, MPACorePhoneBook.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-06-12 16:43:52,685 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MPACorePhoneBook.MPACorePhoneBookApplicationModule, MPACorePhoneBook.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-06-12 16:43:52,686 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MPACorePhoneBook.MPACorePhoneBookCoreModule, MPACorePhoneBook.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-06-12 16:43:52,688 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-06-12 16:43:52,691 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-06-12 16:43:52,691 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-06-12 16:43:52,699 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-06-12 16:43:52,700 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MPACorePhoneBook.EntityFrameworkCore.MPACorePhoneBookEntityFrameworkModule, MPACorePhoneBook.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-06-12 16:43:52,701 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-06-12 16:43:52,701 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-06-12 16:43:52,702 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-06-12 16:43:52,704 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-06-12 16:43:52,710 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-06-12 16:43:52,711 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-06-12 16:43:52,728 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-06-12 16:43:53,034 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-06-12 16:43:53,034 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-06-12 16:43:53,034 [1    ] o.Configuration.LanguageManagementConfig - Converted MPACorePhoneBook (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-06-12 16:43:53,034 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-06-12 16:43:55,486 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: MPACorePhoneBook.EntityFrameworkCore.MPACorePhoneBookDbContext, MPACorePhoneBook.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-06-12 16:43:59,594 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-06-12 16:43:59,903 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-06-12 16:44:00,049 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-06-12 16:44:00,102 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: MPACorePhoneBook
+DEBUG 2018-06-12 16:44:00,186 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-06-12 16:44:00,811 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-06-12 16:44:01,229 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 11 classes define auto mapping attributes
+DEBUG 2018-06-12 16:44:01,235 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACorePhoneBook.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-06-12 16:44:01,247 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACorePhoneBook.Users.Dto.CreateUserDto
+DEBUG 2018-06-12 16:44:01,248 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACorePhoneBook.Users.Dto.UserDto
+DEBUG 2018-06-12 16:44:01,248 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACorePhoneBook.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-06-12 16:44:01,248 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACorePhoneBook.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-06-12 16:44:01,248 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACorePhoneBook.Roles.Dto.CreateRoleDto
+DEBUG 2018-06-12 16:44:01,248 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACorePhoneBook.Roles.Dto.PermissionDto
+DEBUG 2018-06-12 16:44:01,249 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACorePhoneBook.Roles.Dto.RoleDto
+DEBUG 2018-06-12 16:44:01,250 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACorePhoneBook.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-06-12 16:44:01,250 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACorePhoneBook.MultiTenancy.Dto.TenantDto
+DEBUG 2018-06-12 16:44:01,250 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACorePhoneBook.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+INFO  2018-06-12 16:44:06,828 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2018-06-12 16:44:06,830 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:62114/  0
+INFO  2018-06-12 16:44:06,886 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 117.9521ms 200 
+WARN  2018-06-12 16:44:13,664 [6    ] Mvc.Authorization.AbpAuthorizationFilter - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 43
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 98
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 57
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.<OnAuthorizationAsync>d__8.MoveNext() in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Authorization\AbpAuthorizationFilter.cs:line 53
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 43
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 98
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 57
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.<OnAuthorizationAsync>d__8.MoveNext() in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Authorization\AbpAuthorizationFilter.cs:line 53
+INFO  2018-06-12 16:44:13,681 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter'.
+INFO  2018-06-12 16:44:13,699 [6    ] Microsoft.AspNetCore.Mvc.ChallengeResult - Executing ChallengeResult with authentication schemes ().
+INFO  2018-06-12 16:44:13,727 [6    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was challenged.
+INFO  2018-06-12 16:44:13,738 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MPACorePhoneBook.Web.Controllers.HomeController.Index (MPACorePhoneBook.Web.Mvc) in 714.9909ms
+INFO  2018-06-12 16:44:13,774 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 7013.0511ms 302 
+INFO  2018-06-12 16:44:13,787 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Account/Login?ReturnUrl=%2F  
+INFO  2018-06-12 16:44:18,693 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MPACorePhoneBook.Web.Controllers.AccountController.Login (MPACorePhoneBook.Web.Mvc) with arguments (, /, ) - ModelState is Valid
+INFO  2018-06-12 16:44:26,257 [7    ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Account/Login.cshtml.
+INFO  2018-06-12 16:44:28,763 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MPACorePhoneBook.Web.Controllers.AccountController.Login (MPACorePhoneBook.Web.Mvc) in 14894.9786ms
+INFO  2018-06-12 16:44:28,776 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 14990.859ms 200 text/html; charset=utf-8
+INFO  2018-06-12 16:44:28,968 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/fonts/material-icons/materialicons.css?v=2SsVsQpWRHM3EJ4D4MT4RRpiEXbEuK0vEjPxVr5P7Ek  
+INFO  2018-06-12 16:44:28,973 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/fonts/roboto/roboto.css?v=DWPiEyLnt8XZ68WQeudmZPGSejowhmQNUUhaX8dYF1Q  
+INFO  2018-06-12 16:44:28,980 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/bootstrap/dist/css/bootstrap.css?v=fmMNkMcjSw3xcp9iuPnku_ryk9kaWgrEbfJfKmdZ45o  
+INFO  2018-06-12 16:44:28,987 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/toastr/toastr.css?v=W8a9WvLyUO7CXtOC4f9LoUMwkywM7JSq-Xm5kNsYW08  
+INFO  2018-06-12 16:44:29,022 [5    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.css'. Physical path: 'E:\ABPZERO\MPACorePhoneBook\aspnet-core\src\MPACorePhoneBook.Web.Mvc\wwwroot\lib\bootstrap\dist\css\bootstrap.css'
+INFO  2018-06-12 16:44:29,046 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/fonts/material-icons/materialicons.css'. Physical path: 'E:\ABPZERO\MPACorePhoneBook\aspnet-core\src\MPACorePhoneBook.Web.Mvc\wwwroot\fonts\material-icons\materialicons.css'
+INFO  2018-06-12 16:44:29,048 [18   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/fonts/roboto/roboto.css'. Physical path: 'E:\ABPZERO\MPACorePhoneBook\aspnet-core\src\MPACorePhoneBook.Web.Mvc\wwwroot\fonts\roboto\roboto.css'
+INFO  2018-06-12 16:44:29,053 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/toastr/toastr.css'. Physical path: 'E:\ABPZERO\MPACorePhoneBook\aspnet-core\src\MPACorePhoneBook.Web.Mvc\wwwroot\lib\toastr\toastr.css'
+INFO  2018-06-12 16:44:29,148 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 106.7111ms 200 text/css
+INFO  2018-06-12 16:44:29,165 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/font-awesome/css/font-awesome.css?v=NuCn4IvuZXdBaFKJOAcsU2Q3ZpwbdFisd5dux4jkQ5w  
+INFO  2018-06-12 16:44:29,170 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 117.1171ms 200 text/css
+INFO  2018-06-12 16:44:29,195 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 113.876ms 200 text/css
+INFO  2018-06-12 16:44:29,207 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 224.1223ms 200 text/css
+INFO  2018-06-12 16:44:29,208 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/famfamfam-flags/dist/sprite/famfamfam-flags.css?v=l7wu43l7XpKWzFn29hiH8AFe4I_CNzbCPmaAQivPYMg  
+INFO  2018-06-12 16:44:29,256 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/font-awesome/css/font-awesome.css'. Physical path: 'E:\ABPZERO\MPACorePhoneBook\aspnet-core\src\MPACorePhoneBook.Web.Mvc\wwwroot\lib\font-awesome\css\font-awesome.css'
+INFO  2018-06-12 16:44:29,271 [18   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/famfamfam-flags/dist/sprite/famfamfam-flags.css'. Physical path: 'E:\ABPZERO\MPACorePhoneBook\aspnet-core\src\MPACorePhoneBook.Web.Mvc\wwwroot\lib\famfamfam-flags\dist\sprite\famfamfam-flags.css'
+INFO  2018-06-12 16:44:29,301 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 106.2862ms 200 text/css
+INFO  2018-06-12 16:44:29,304 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 97.3324ms 200 text/css
+INFO  2018-06-12 16:44:29,549 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/Waves/dist/waves.css?v=0zP86LzXedNkkBjePtKrMTAPuIy6EzHfGlyYvsmGLBw  
+INFO  2018-06-12 16:44:29,559 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/animate.css/animate.css?v=00w68NO3TLuHjKRHJmjrrgJBDtG_6OhbJEu1gtHcsuo  
+INFO  2018-06-12 16:44:29,595 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/Waves/dist/waves.css'. Physical path: 'E:\ABPZERO\MPACorePhoneBook\aspnet-core\src\MPACorePhoneBook.Web.Mvc\wwwroot\lib\Waves\dist\waves.css'
+INFO  2018-06-12 16:44:29,600 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/css/materialize.css?v=OdWlipUYj8b9Oa4RyT45njteIcxH-4pGocqe0r0V8js  
+INFO  2018-06-12 16:44:29,604 [18   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/animate.css/animate.css'. Physical path: 'E:\ABPZERO\MPACorePhoneBook\aspnet-core\src\MPACorePhoneBook.Web.Mvc\wwwroot\lib\animate.css\animate.css'
+INFO  2018-06-12 16:44:29,610 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/css/style.css?v=151KUrNx-cFGpjXC7QZ8WbWSo-mQTLO0htvGyBUR_i8  
+INFO  2018-06-12 16:44:29,623 [5    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/materialize.css'. Physical path: 'E:\ABPZERO\MPACorePhoneBook\aspnet-core\src\MPACorePhoneBook.Web.Mvc\wwwroot\css\materialize.css'
+INFO  2018-06-12 16:44:29,625 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Account/Login.css?v=j_16MTiQNlUrKdjTrCjLCSGkIIjHvt8tFUyucW02Vqw  
+INFO  2018-06-12 16:44:29,638 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Account/_Layout.css?v=vIEtxnpR3ZrYbYcueRr_mJ9XuJJzDprh4sMCwvRBcqk  
+INFO  2018-06-12 16:44:29,698 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/style.css'. Physical path: 'E:\ABPZERO\MPACorePhoneBook\aspnet-core\src\MPACorePhoneBook.Web.Mvc\wwwroot\css\style.css'
+INFO  2018-06-12 16:44:29,705 [18   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Account/Login.css'. Physical path: 'E:\ABPZERO\MPACorePhoneBook\aspnet-core\src\MPACorePhoneBook.Web.Mvc\wwwroot\view-resources\Views\Account\Login.css'
+INFO  2018-06-12 16:44:29,713 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 95.3339ms 200 text/css
+INFO  2018-06-12 16:44:29,732 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Account/_Layout.css'. Physical path: 'E:\ABPZERO\MPACorePhoneBook\aspnet-core\src\MPACorePhoneBook.Web.Mvc\wwwroot\view-resources\Views\Account\_Layout.css'
+INFO  2018-06-12 16:44:29,754 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 181.3232ms 200 text/css
+INFO  2018-06-12 16:44:29,757 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/json2/json2.js?v=EZJ68U7eUi8uSP0MRRUalYten2eOlhREE9kJOIbIeYg  
+INFO  2018-06-12 16:44:29,762 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 120.256ms 200 text/css
+INFO  2018-06-12 16:44:29,768 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/bootstrap/dist/js/bootstrap.js?v=Cr6N6zNN4bp0OwTQOZ6Z66M2r-2dpy_EwKMCyZ-SOMg  
+INFO  2018-06-12 16:44:29,770 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 205.3998ms 200 text/css
+INFO  2018-06-12 16:44:29,777 [5    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/json2/json2.js'. Physical path: 'E:\ABPZERO\MPACorePhoneBook\aspnet-core\src\MPACorePhoneBook.Web.Mvc\wwwroot\lib\json2\json2.js'
+INFO  2018-06-12 16:44:29,778 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.js'. Physical path: 'E:\ABPZERO\MPACorePhoneBook\aspnet-core\src\MPACorePhoneBook.Web.Mvc\wwwroot\lib\bootstrap\dist\js\bootstrap.js'
+INFO  2018-06-12 16:44:29,807 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 39.3617ms 200 application/javascript
+INFO  2018-06-12 16:44:29,837 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery/dist/jquery.js?v=DZAnKJ_6XZ9si04Hgrsxu_8s717jcIzLy3oi35EouyE  
+INFO  2018-06-12 16:44:29,844 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/blockUI/jquery.blockUI.js?v=oQaw-JJuUcJQ9QVYMcFnPxICDT-hv8-kuxT2FNzTGhc  
+INFO  2018-06-12 16:44:29,860 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/moment/min/moment-with-locales.js?v=7CN4bWPV0U57HDA4YjdCBKCAynhqdWErjNn-5rrsW_I  
+INFO  2018-06-12 16:44:29,927 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/moment/min/moment-with-locales.js'. Physical path: 'E:\ABPZERO\MPACorePhoneBook\aspnet-core\src\MPACorePhoneBook.Web.Mvc\wwwroot\lib\moment\min\moment-with-locales.js'
+INFO  2018-06-12 16:44:29,930 [18   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery/dist/jquery.js'. Physical path: 'E:\ABPZERO\MPACorePhoneBook\aspnet-core\src\MPACorePhoneBook.Web.Mvc\wwwroot\lib\jquery\dist\jquery.js'
+INFO  2018-06-12 16:44:29,932 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 183.7621ms 200 text/css
+INFO  2018-06-12 16:44:29,976 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 423.7496ms 200 text/css
+INFO  2018-06-12 16:44:29,979 [5    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/blockUI/jquery.blockUI.js'. Physical path: 'E:\ABPZERO\MPACorePhoneBook\aspnet-core\src\MPACorePhoneBook.Web.Mvc\wwwroot\lib\blockUI\jquery.blockUI.js'
+INFO  2018-06-12 16:44:29,986 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 174.2811ms 200 application/javascript
+INFO  2018-06-12 16:44:30,026 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/sweetalert/dist/sweetalert.min.js?v=aPktydUv1rN3mouQeXoKi3ioFTIQlULuqYeoTAA2ihY  
+INFO  2018-06-12 16:44:30,058 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/toastr/toastr.js?v=C7DJ6LzTt1Hvj9fd-yRnySs3I4T2B8XmQ3TqXQjc00g  
+INFO  2018-06-12 16:44:30,146 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 181.9909ms 200 application/javascript
+INFO  2018-06-12 16:44:30,159 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/sweetalert/dist/sweetalert.min.js'. Physical path: 'E:\ABPZERO\MPACorePhoneBook\aspnet-core\src\MPACorePhoneBook.Web.Mvc\wwwroot\lib\sweetalert\dist\sweetalert.min.js'
+INFO  2018-06-12 16:44:30,165 [18   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/toastr/toastr.js'. Physical path: 'E:\ABPZERO\MPACorePhoneBook\aspnet-core\src\MPACorePhoneBook.Web.Mvc\wwwroot\lib\toastr\toastr.js'
+INFO  2018-06-12 16:44:30,293 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 128.7132ms 200 application/javascript
+INFO  2018-06-12 16:44:30,362 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/spin.js/spin.js?v=GySbz3oZXNlwoawo5PpYy0iM38B-q3jyi_HLw00uxy0  
+INFO  2018-06-12 16:44:30,372 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 181.3492ms 200 application/javascript
+INFO  2018-06-12 16:44:30,375 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery-validation/dist/jquery.validate.js?v=KuzD50lDGNI5jq_ipt4hwDpSJk3fhseTR1jdvaBoZLs  
+INFO  2018-06-12 16:44:30,396 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/fonts/roboto/CWB0XYA8bzo0kSThX0UTuA.woff2  
+INFO  2018-06-12 16:44:30,397 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/fonts/roboto/d-6IYplOFocCacKzxwXSOFtXRa8TVwTICgirnJhmVJw.woff2  
+INFO  2018-06-12 16:44:30,404 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/fonts/roboto/CWB0XYA8bzo0kSThX0UTuA.woff2'. Physical path: 'E:\ABPZERO\MPACorePhoneBook\aspnet-core\src\MPACorePhoneBook.Web.Mvc\wwwroot\fonts\roboto\CWB0XYA8bzo0kSThX0UTuA.woff2'
+INFO  2018-06-12 16:44:30,418 [5    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/spin.js/spin.js'. Physical path: 'E:\ABPZERO\MPACorePhoneBook\aspnet-core\src\MPACorePhoneBook.Web.Mvc\wwwroot\lib\spin.js\spin.js'
+INFO  2018-06-12 16:44:30,435 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 29.8663ms 200 font/woff2
+INFO  2018-06-12 16:44:30,438 [18   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/fonts/roboto/d-6IYplOFocCacKzxwXSOFtXRa8TVwTICgirnJhmVJw.woff2'. Physical path: 'E:\ABPZERO\MPACorePhoneBook\aspnet-core\src\MPACorePhoneBook.Web.Mvc\wwwroot\fonts\roboto\d-6IYplOFocCacKzxwXSOFtXRa8TVwTICgirnJhmVJw.woff2'
+INFO  2018-06-12 16:44:30,443 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery-validation/dist/jquery.validate.js'. Physical path: 'E:\ABPZERO\MPACorePhoneBook\aspnet-core\src\MPACorePhoneBook.Web.Mvc\wwwroot\lib\jquery-validation\dist\jquery.validate.js'
+INFO  2018-06-12 16:44:30,447 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 104.7512ms 200 application/javascript
+INFO  2018-06-12 16:44:30,508 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 401.8907ms 200 application/javascript
+INFO  2018-06-12 16:44:30,585 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 84.6907ms 200 font/woff2
+INFO  2018-06-12 16:44:30,669 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/fonts/material-icons/materialicons.woff2  
+INFO  2018-06-12 16:44:30,713 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 823.9626ms 200 application/javascript
+INFO  2018-06-12 16:44:30,722 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/Waves/dist/waves.js?v=Lar7zQhqgdoUsaqhuwkgnWgsC-eRWIxHhJPV-QtrDog  
+INFO  2018-06-12 16:44:30,744 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/abp.js?v=FGfi3RfHf06ftjVdq2JaO16cF9CPZNPvujmuYBacXxg  
+INFO  2018-06-12 16:44:30,777 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 882.8482ms 200 application/javascript
+INFO  2018-06-12 16:44:30,835 [18   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/abp.js'. Physical path: 'E:\ABPZERO\MPACorePhoneBook\aspnet-core\src\MPACorePhoneBook.Web.Mvc\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\abp.js'
+INFO  2018-06-12 16:44:30,840 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/fonts/material-icons/materialicons.woff2'. Physical path: 'E:\ABPZERO\MPACorePhoneBook\aspnet-core\src\MPACorePhoneBook.Web.Mvc\wwwroot\fonts\material-icons\materialicons.woff2'
+INFO  2018-06-12 16:44:30,847 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js?v=lMgLZMlGsipWDxpvEPxfKVREzRedV_ygRnTj2kvADpw  
+INFO  2018-06-12 16:44:30,870 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/Waves/dist/waves.js'. Physical path: 'E:\ABPZERO\MPACorePhoneBook\aspnet-core\src\MPACorePhoneBook.Web.Mvc\wwwroot\lib\Waves\dist\waves.js'
+INFO  2018-06-12 16:44:30,893 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 323.7549ms 200 font/woff2
+INFO  2018-06-12 16:44:30,908 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/spin.js/jquery.spin.js?v=EG38bUU5b2M64hy9cNAzu_cQBEsiBYsDifOcoHqNd2k  
+INFO  2018-06-12 16:44:30,915 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js?v=ImopdkB8alCil1HigOwW3CDqWKsLZXyplf7TXBbjRnE  
+INFO  2018-06-12 16:44:30,920 [25   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js'. Physical path: 'E:\ABPZERO\MPACorePhoneBook\aspnet-core\src\MPACorePhoneBook.Web.Mvc\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.jquery.js'
+INFO  2018-06-12 16:44:30,957 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 154.7623ms 200 application/javascript
+INFO  2018-06-12 16:44:30,959 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js?v=Y3zoG-hSFKmbS3BHKo_wFWRPbyzJXKoNrnF73uFdtqU  
+INFO  2018-06-12 16:44:30,983 [20   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js'. Physical path: 'E:\ABPZERO\MPACorePhoneBook\aspnet-core\src\MPACorePhoneBook.Web.Mvc\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.toastr.js'
+INFO  2018-06-12 16:44:31,001 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 358.4118ms 200 application/javascript
+INFO  2018-06-12 16:44:31,023 [5    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/spin.js/jquery.spin.js'. Physical path: 'E:\ABPZERO\MPACorePhoneBook\aspnet-core\src\MPACorePhoneBook.Web.Mvc\wwwroot\lib\spin.js\jquery.spin.js'
+INFO  2018-06-12 16:44:31,042 [18   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js'. Physical path: 'E:\ABPZERO\MPACorePhoneBook\aspnet-core\src\MPACorePhoneBook.Web.Mvc\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.blockUI.js'
+INFO  2018-06-12 16:44:31,058 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 167.9864ms 200 application/javascript
+INFO  2018-06-12 16:44:31,062 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js?v=guLvtVJMvLobKpGAlQigrGWMQ1sGQo4yTL46zjGQUUY  
+INFO  2018-06-12 16:44:31,086 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 121.7808ms 200 application/javascript
+INFO  2018-06-12 16:44:31,091 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 285.7567ms 200 application/javascript
+INFO  2018-06-12 16:44:31,116 [25   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js'. Physical path: 'E:\ABPZERO\MPACorePhoneBook\aspnet-core\src\MPACorePhoneBook.Web.Mvc\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.sweet-alert.js'
+INFO  2018-06-12 16:44:31,136 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/js/main.js?v=618g-mzjwCeDLA5lnBMt-LWf6fRwBJslhyeXBgZxfC0  
+INFO  2018-06-12 16:44:31,144 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 368.0451ms 200 application/javascript
+INFO  2018-06-12 16:44:31,152 [20   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/js/main.js'. Physical path: 'E:\ABPZERO\MPACorePhoneBook\aspnet-core\src\MPACorePhoneBook.Web.Mvc\wwwroot\js\main.js'
+INFO  2018-06-12 16:44:31,155 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js?v=RJuGDX616JN_UziXsmKnth0alpECKCx0gtxKZVrZWxY  
+INFO  2018-06-12 16:44:31,158 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636644186408334936  
+INFO  2018-06-12 16:44:31,182 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js'. Physical path: 'E:\ABPZERO\MPACorePhoneBook\aspnet-core\src\MPACorePhoneBook.Web.Mvc\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.spin.js'
+INFO  2018-06-12 16:44:31,231 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 89.2375ms 200 application/javascript
+INFO  2018-06-12 16:44:31,238 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 139.5638ms 200 application/javascript
+INFO  2018-06-12 16:44:31,241 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/js/admin.js?v=EVe7kfOaz9IIbzAxojHn8QU2lv1sAlpN_v_9R5MU9mg  
+INFO  2018-06-12 16:44:31,276 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 115.5189ms 200 application/javascript
+INFO  2018-06-12 16:44:31,282 [19   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2018-06-12 16:44:31,292 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636644186408334936  
+INFO  2018-06-12 16:44:31,296 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Account/Login.js?v=o2PUQBkwW7VjtzD5RNxKPa3oShr3fMFHds_2dwIAV5M  
+INFO  2018-06-12 16:44:31,319 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/famfamfam-flags/dist/sprite/famfamfam-flags.png  
+INFO  2018-06-12 16:44:31,346 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/js/admin.js'. Physical path: 'E:\ABPZERO\MPACorePhoneBook\aspnet-core\src\MPACorePhoneBook.Web.Mvc\wwwroot\js\admin.js'
+INFO  2018-06-12 16:44:31,434 [18   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/famfamfam-flags/dist/sprite/famfamfam-flags.png'. Physical path: 'E:\ABPZERO\MPACorePhoneBook\aspnet-core\src\MPACorePhoneBook.Web.Mvc\wwwroot\lib\famfamfam-flags\dist\sprite\famfamfam-flags.png'
+INFO  2018-06-12 16:44:31,474 [20   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Account/Login.js'. Physical path: 'E:\ABPZERO\MPACorePhoneBook\aspnet-core\src\MPACorePhoneBook.Web.Mvc\wwwroot\view-resources\Views\Account\Login.js'
+INFO  2018-06-12 16:44:31,671 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 203.7046ms 200 application/javascript
+INFO  2018-06-12 16:44:31,758 [22   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 277.0548ms 200 image/png
+INFO  2018-06-12 16:44:31,763 [19   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2018-06-12 16:44:31,777 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 214.7195ms 200 application/javascript
+INFO  2018-06-12 16:44:31,804 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Shared/Components/TenantChange/Default.js?v=636644186687358475  
+INFO  2018-06-12 16:44:31,817 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+INFO  2018-06-12 16:44:31,819 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/favicon.ico  
+INFO  2018-06-12 16:44:31,824 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Shared/Components/TenantChange/Default.js'. Physical path: 'E:\ABPZERO\MPACorePhoneBook\aspnet-core\src\MPACorePhoneBook.Web.Mvc\wwwroot\view-resources\Views\Shared\Components\TenantChange\Default.js'
+INFO  2018-06-12 16:44:31,833 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 498.3697ms 200 application/javascript
+INFO  2018-06-12 16:44:31,836 [19   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 568.4256ms
+INFO  2018-06-12 16:44:31,846 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 738.8224ms 200 application/x-javascript; charset=utf-8
+INFO  2018-06-12 16:44:31,854 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon.ico'. Physical path: 'E:\ABPZERO\MPACorePhoneBook\aspnet-core\src\MPACorePhoneBook.Web.Mvc\wwwroot\favicon.ico'
+INFO  2018-06-12 16:44:31,864 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 74.4786ms 200 image/x-icon
+INFO  2018-06-12 16:44:32,078 [5    ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2018-06-12 16:44:32,088 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 653.0995ms
+INFO  2018-06-12 16:44:32,097 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 858.6114ms 200 application/x-javascript
+INFO  2018-06-12 16:44:42,213 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/Account/Login application/x-www-form-urlencoded 253
+INFO  2018-06-12 16:44:42,316 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MPACorePhoneBook.Web.Controllers.AccountController.Login (MPACorePhoneBook.Web.Mvc) with arguments (MPACorePhoneBook.Web.Models.Account.LoginViewModel, /, ) - ModelState is Valid
+WARN  2018-06-12 16:44:42,828 [6    ] icrosoft.AspNetCore.Identity.UserManager - Invalid password for user 1.
+WARN  2018-06-12 16:44:43,890 [7    ] Mvc.ExceptionHandling.AbpExceptionFilter - Login failed!
+Abp.UI.UserFriendlyException: Login failed!
+   at MPACorePhoneBook.Web.Controllers.AccountController.<GetLoginResultAsync>d__15.MoveNext() in E:\ABPZERO\MPACorePhoneBook\aspnet-core\src\MPACorePhoneBook.Web.Mvc\Controllers\AccountController.cs:line 126
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at MPACorePhoneBook.Web.Controllers.AccountController.<Login>d__13.MoveNext() in E:\ABPZERO\MPACorePhoneBook\aspnet-core\src\MPACorePhoneBook.Web.Mvc\Controllers\AccountController.cs:line 102
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Threading\InternalAsyncHelper.cs:line 120
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+INFO  2018-06-12 16:44:43,915 [7    ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-06-12 16:44:43,943 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MPACorePhoneBook.Web.Controllers.AccountController.Login (MPACorePhoneBook.Web.Mvc) in 1707.4488ms
+INFO  2018-06-12 16:44:43,958 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1739.6976ms 500 application/json; charset=utf-8
+INFO  2018-06-12 16:44:48,654 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/Account/Login application/x-www-form-urlencoded 251
+INFO  2018-06-12 16:44:48,684 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MPACorePhoneBook.Web.Controllers.AccountController.Login (MPACorePhoneBook.Web.Mvc) with arguments (MPACorePhoneBook.Web.Models.Account.LoginViewModel, /, ) - ModelState is Valid
+WARN  2018-06-12 16:44:49,053 [5    ] Mvc.ExceptionHandling.AbpExceptionFilter - Login failed!
+Abp.UI.UserFriendlyException: Login failed!
+   at MPACorePhoneBook.Web.Controllers.AccountController.<GetLoginResultAsync>d__15.MoveNext() in E:\ABPZERO\MPACorePhoneBook\aspnet-core\src\MPACorePhoneBook.Web.Mvc\Controllers\AccountController.cs:line 126
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at MPACorePhoneBook.Web.Controllers.AccountController.<Login>d__13.MoveNext() in E:\ABPZERO\MPACorePhoneBook\aspnet-core\src\MPACorePhoneBook.Web.Mvc\Controllers\AccountController.cs:line 102
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Threading\InternalAsyncHelper.cs:line 120
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+INFO  2018-06-12 16:44:49,065 [5    ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-06-12 16:44:49,072 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MPACorePhoneBook.Web.Controllers.AccountController.Login (MPACorePhoneBook.Web.Mvc) in 401.6021ms
+INFO  2018-06-12 16:44:49,083 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 428.2612ms 500 application/json; charset=utf-8
+INFO  2018-06-12 16:44:54,628 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/Account/Login application/x-www-form-urlencoded 255
+INFO  2018-06-12 16:44:54,647 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MPACorePhoneBook.Web.Controllers.AccountController.Login (MPACorePhoneBook.Web.Mvc) with arguments (MPACorePhoneBook.Web.Models.Account.LoginViewModel, /, ) - ModelState is Valid
+WARN  2018-06-12 16:44:54,685 [5    ] icrosoft.AspNetCore.Identity.UserManager - Invalid password for user 1.
+WARN  2018-06-12 16:44:54,881 [7    ] Mvc.ExceptionHandling.AbpExceptionFilter - Login failed!
+Abp.UI.UserFriendlyException: Login failed!
+   at MPACorePhoneBook.Web.Controllers.AccountController.<GetLoginResultAsync>d__15.MoveNext() in E:\ABPZERO\MPACorePhoneBook\aspnet-core\src\MPACorePhoneBook.Web.Mvc\Controllers\AccountController.cs:line 126
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at MPACorePhoneBook.Web.Controllers.AccountController.<Login>d__13.MoveNext() in E:\ABPZERO\MPACorePhoneBook\aspnet-core\src\MPACorePhoneBook.Web.Mvc\Controllers\AccountController.cs:line 102
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Threading\InternalAsyncHelper.cs:line 120
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+INFO  2018-06-12 16:44:54,891 [7    ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-06-12 16:44:54,895 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MPACorePhoneBook.Web.Controllers.AccountController.Login (MPACorePhoneBook.Web.Mvc) in 256.8556ms
+INFO  2018-06-12 16:44:54,903 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 276.4716ms 500 application/json; charset=utf-8
+INFO  2018-06-12 16:45:13,776 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpLocalization/ChangeCulture?cultureName=zh-CN&returnUrl=%2FAccount%2FLogin%3FReturnUrl%3D%252F  
+INFO  2018-06-12 16:45:13,807 [20   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpLocalizationController.ChangeCulture (Abp.AspNetCore) with arguments (zh-CN, /Account/Login?ReturnUrl=%2F) - ModelState is Valid
+INFO  2018-06-12 16:45:13,836 [20   ] Core.Mvc.Internal.RedirectResultExecutor - Executing RedirectResult, redirecting to /Account/Login?ReturnUrl=%2F.
+INFO  2018-06-12 16:45:13,842 [20   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpLocalizationController.ChangeCulture (Abp.AspNetCore) in 43.9031ms
+INFO  2018-06-12 16:45:13,852 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 82.3497ms 302 
+INFO  2018-06-12 16:45:13,898 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Account/Login?ReturnUrl=%2F  
+INFO  2018-06-12 16:45:13,913 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MPACorePhoneBook.Web.Controllers.AccountController.Login (MPACorePhoneBook.Web.Mvc) with arguments (, /, ) - ModelState is Valid
+INFO  2018-06-12 16:45:13,929 [19   ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Account/Login.cshtml.
+INFO  2018-06-12 16:45:14,040 [19   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MPACorePhoneBook.Web.Controllers.AccountController.Login (MPACorePhoneBook.Web.Mvc) in 55.7324ms
+INFO  2018-06-12 16:45:14,052 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 188.3936ms 200 text/html; charset=utf-8
+INFO  2018-06-12 16:45:14,156 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636644186408334936  
+INFO  2018-06-12 16:45:14,168 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Shared/Components/TenantChange/Default.js?v=636644187139584662  
+INFO  2018-06-12 16:45:14,173 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636644186408334936  
+INFO  2018-06-12 16:45:14,185 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery-validation/src/localization/messages_zh_CN.js  
+INFO  2018-06-12 16:45:14,202 [20   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2018-06-12 16:45:14,265 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 59.0115ms 404 
+INFO  2018-06-12 16:45:14,366 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+INFO  2018-06-12 16:45:14,380 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/favicon.ico  
+INFO  2018-06-12 16:45:14,395 [20   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2018-06-12 16:45:14,408 [18   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2018-06-12 16:45:14,422 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Shared/Components/TenantChange/Default.js'. Physical path: 'E:\ABPZERO\MPACorePhoneBook\aspnet-core\src\MPACorePhoneBook.Web.Mvc\wwwroot\view-resources\Views\Shared\Components\TenantChange\Default.js'
+INFO  2018-06-12 16:45:14,436 [20   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 214.5839ms
+INFO  2018-06-12 16:45:14,458 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 234.0248ms
+INFO  2018-06-12 16:45:14,468 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 303.2179ms 200 application/javascript
+INFO  2018-06-12 16:45:14,479 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon.ico'. Physical path: 'E:\ABPZERO\MPACorePhoneBook\aspnet-core\src\MPACorePhoneBook.Web.Mvc\wwwroot\favicon.ico'
+INFO  2018-06-12 16:45:14,566 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 311.7806ms 200 application/x-javascript; charset=utf-8
+INFO  2018-06-12 16:45:14,583 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 379.0172ms 200 image/x-icon
+INFO  2018-06-12 16:45:14,585 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 331.1231ms 200 application/x-javascript
+INFO  2018-06-12 16:45:14,598 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery-validation/src/localization/messages_zh_CN.js  
+INFO  2018-06-12 16:45:14,660 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 77.9038ms 404 
+INFO  2018-06-12 16:45:32,533 [23   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/Account/Login application/x-www-form-urlencoded 275
+INFO  2018-06-12 16:45:32,547 [23   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MPACorePhoneBook.Web.Controllers.AccountController.Login (MPACorePhoneBook.Web.Mvc) with arguments (MPACorePhoneBook.Web.Models.Account.LoginViewModel, /, ) - ModelState is Valid
+WARN  2018-06-12 16:45:32,831 [4    ] Mvc.ExceptionHandling.AbpExceptionFilter - 登录失败!
+Abp.UI.UserFriendlyException: 登录失败!
+   at MPACorePhoneBook.Web.Controllers.AccountController.<GetLoginResultAsync>d__15.MoveNext() in E:\ABPZERO\MPACorePhoneBook\aspnet-core\src\MPACorePhoneBook.Web.Mvc\Controllers\AccountController.cs:line 126
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at MPACorePhoneBook.Web.Controllers.AccountController.<Login>d__13.MoveNext() in E:\ABPZERO\MPACorePhoneBook\aspnet-core\src\MPACorePhoneBook.Web.Mvc\Controllers\AccountController.cs:line 102
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Threading\InternalAsyncHelper.cs:line 120
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+INFO  2018-06-12 16:45:32,875 [4    ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-06-12 16:45:32,888 [4    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MPACorePhoneBook.Web.Controllers.AccountController.Login (MPACorePhoneBook.Web.Mvc) in 337.4181ms
+INFO  2018-06-12 16:45:32,934 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 360.2349ms 500 application/json; charset=utf-8
+INFO  2018-06-12 16:45:55,904 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/Account/Login application/x-www-form-urlencoded 255
+INFO  2018-06-12 16:45:55,945 [4    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MPACorePhoneBook.Web.Controllers.AccountController.Login (MPACorePhoneBook.Web.Mvc) with arguments (MPACorePhoneBook.Web.Models.Account.LoginViewModel, /, ) - ModelState is Valid
+WARN  2018-06-12 16:45:56,116 [7    ] icrosoft.AspNetCore.Identity.UserManager - Invalid password for user 1.
+WARN  2018-06-12 16:45:56,555 [6    ] Mvc.ExceptionHandling.AbpExceptionFilter - 登录失败!
+Abp.UI.UserFriendlyException: 登录失败!
+   at MPACorePhoneBook.Web.Controllers.AccountController.<GetLoginResultAsync>d__15.MoveNext() in E:\ABPZERO\MPACorePhoneBook\aspnet-core\src\MPACorePhoneBook.Web.Mvc\Controllers\AccountController.cs:line 126
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at MPACorePhoneBook.Web.Controllers.AccountController.<Login>d__13.MoveNext() in E:\ABPZERO\MPACorePhoneBook\aspnet-core\src\MPACorePhoneBook.Web.Mvc\Controllers\AccountController.cs:line 102
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Threading\InternalAsyncHelper.cs:line 120
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+INFO  2018-06-12 16:45:56,572 [6    ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-06-12 16:45:56,586 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MPACorePhoneBook.Web.Controllers.AccountController.Login (MPACorePhoneBook.Web.Mvc) in 660.0886ms
+INFO  2018-06-12 16:45:56,613 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 689.5277ms 500 application/json; charset=utf-8
+INFO  2018-06-12 16:46:00,543 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/Account/Login application/x-www-form-urlencoded 255
+INFO  2018-06-12 16:46:00,570 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MPACorePhoneBook.Web.Controllers.AccountController.Login (MPACorePhoneBook.Web.Mvc) with arguments (MPACorePhoneBook.Web.Models.Account.LoginViewModel, /, ) - ModelState is Valid
+WARN  2018-06-12 16:46:00,610 [18   ] icrosoft.AspNetCore.Identity.UserManager - Invalid password for user 1.
+WARN  2018-06-12 16:46:00,828 [4    ] Mvc.ExceptionHandling.AbpExceptionFilter - 登录失败!
+Abp.UI.UserFriendlyException: 登录失败!
+   at MPACorePhoneBook.Web.Controllers.AccountController.<GetLoginResultAsync>d__15.MoveNext() in E:\ABPZERO\MPACorePhoneBook\aspnet-core\src\MPACorePhoneBook.Web.Mvc\Controllers\AccountController.cs:line 126
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at MPACorePhoneBook.Web.Controllers.AccountController.<Login>d__13.MoveNext() in E:\ABPZERO\MPACorePhoneBook\aspnet-core\src\MPACorePhoneBook.Web.Mvc\Controllers\AccountController.cs:line 102
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Threading\InternalAsyncHelper.cs:line 120
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+INFO  2018-06-12 16:46:00,837 [4    ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-06-12 16:46:00,842 [4    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MPACorePhoneBook.Web.Controllers.AccountController.Login (MPACorePhoneBook.Web.Mvc) in 286.5205ms
+INFO  2018-06-12 16:46:00,853 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 306.4101ms 500 application/json; charset=utf-8
