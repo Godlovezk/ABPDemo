@@ -18,7 +18,6 @@ namespace MPACorePhoneBook.Authentication.JwtBearer
                         ctx.User = result.Principal;
                     }
                 }
-
                 await next();
             });
         }
