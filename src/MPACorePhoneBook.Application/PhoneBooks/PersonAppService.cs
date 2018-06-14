@@ -7,6 +7,7 @@ using Abp.Application.Services.Dto;
 using Abp.AutoMapper;
 using Abp.Domain.Repositories;
 using Abp.Linq.Extensions;
+using Abp.UI;
 using Microsoft.EntityFrameworkCore;
 using MPACorePhoneBook.PhoneBooks.Dto;
 using MPACorePhoneBook.PhoneBooks.Person;
@@ -17,14 +18,28 @@ namespace MPACorePhoneBook.PhoneBooks
     {
         private readonly IRepository<Persons> _presonRepository;
 
-        public Task CreatOrUpdatePersonAsync()
+        public async Task CreatOrUpdatePersonAsync(CreateOrUpdatePersonInput input)
         {
+            if (input.PersonEditDto.Id.HasValue)
+            {
+                await UpdatePersonAsync(input.PersonEditDto);
+            }
+            else
+            {
+                await CreatPersonAsync(input.PersonEditDto);
+            }
+
             throw new NotImplementedException();
         }
 
-        public Task DeletePersonAsync(EntityDto input)
+        public async Task DeletePersonAsync(EntityDto input)
         {
-            throw new NotImplementedException();
+            var entity = await _presonRepository.GetAsync(input.Id);
+            if (entity==null)
+            {
+                throw new UserFriendlyException("联系人已经被删除");
+            }
+            await _presonRepository.DeleteAsync(input.Id);
         }
 
         public async Task<PagedResultDto<PersonListDto>> GetPagedPersonAsync(GetPersonInput input)
@@ -38,9 +53,24 @@ namespace MPACorePhoneBook.PhoneBooks
             return new PagedResultDto<PersonListDto>(personCount, dto);
         }
 
-        public Task<PersonListDto> GetPersonByIdAsync()
+
+        public async Task<PersonListDto> GetPersonByIdAsync(NullableIdDto input)
         {
-            throw new NotImplementedException();
+            var person= await _presonRepository.GetAsync(input.Id.Value);
+            return person.MapTo<PersonListDto>();
         }
+
+        protected async Task UpdatePersonAsync(PersonEditDto input)
+        {
+            var entity = await _presonRepository.GetAsync(input.Id.Value);
+
+            await _presonRepository.UpdateAsync(input.MapTo(entity));
+        }
+
+        protected async Task CreatPersonAsync(PersonEditDto input)
+        {
+            _presonRepository.InsertAsync(input.MapTo<Persons>());
+        }
+
     }
 }
