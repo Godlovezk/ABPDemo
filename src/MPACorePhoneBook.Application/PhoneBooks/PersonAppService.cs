@@ -18,6 +18,11 @@ namespace MPACorePhoneBook.PhoneBooks
     {
         private readonly IRepository<Persons> _presonRepository;
 
+        public PersonAppService(IRepository<Persons> repository)
+        {
+            _presonRepository = repository;
+        }
+
         public async Task CreatOrUpdatePersonAsync(CreateOrUpdatePersonInput input)
         {
             if (input.PersonEditDto.Id.HasValue)
@@ -26,7 +31,7 @@ namespace MPACorePhoneBook.PhoneBooks
             }
             else
             {
-                await CreatPersonAsync(input.PersonEditDto);
+                await CreatPerson(input.PersonEditDto);
             }
 
             throw new NotImplementedException();
@@ -67,9 +72,9 @@ namespace MPACorePhoneBook.PhoneBooks
             await _presonRepository.UpdateAsync(input.MapTo(entity));
         }
 
-        protected async Task CreatPersonAsync(PersonEditDto input)
+        protected async  Task CreatPerson(PersonEditDto input)
         {
-            _presonRepository.InsertAsync(input.MapTo<Persons>());
+           await   _presonRepository.InsertAsync(input.MapTo<Persons>());
         }
 
     }

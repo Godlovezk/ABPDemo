@@ -12,7 +12,7 @@ namespace MPACorePhoneBook.Web.Mvc.Controllers
     public class PersonsController : MPACorePhoneBookControllerBase
     {
         private readonly IPersonAppService _personAppService;
-        public PersonsController(PersonAppService personAppService)
+        public PersonsController(IPersonAppService personAppService)
         {
             _personAppService = personAppService;
         }

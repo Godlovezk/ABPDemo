@@ -1,6 +1,8 @@
 ﻿@using Abp.Authorization.Users
 @using MPACorePhoneBook.Web.Startup
-@model MPACorePhoneBook.Web.Models.Users.UserListViewModel
+@using MPACorePhoneBook.PhoneBooks.Dto
+@using MPACorePhoneBook.Web.Startup
+@model Abp.Application.Services.Dto.PagedResultDto<PersonListDto>
 @{
     ViewBag.CurrentPageName = PageNames.Persons; // The menu item will be active for this page.
 }
@@ -8,9 +10,6 @@
     {
     <environment names="Development">
         <script src="~/view-resources/Views/Persons/Index.js" asp-append-version="true"></script>
-    </environment>
-    <environment names="Staging,Production">
-        <script src="~/view-resources/Views/Users/Index.min.js" asp-append-version="true"></script>
     </environment>
 }
 <div class="row clearfix">
@@ -34,11 +33,13 @@
             <div class="body table-responsive">
                 <table class="table">
                     <thead>
-                        <tr>@L("Name")</tr>
-                        <tr>@L("EmailAddress")</tr>
-                        <tr>@L("Address")</tr>
-                        <tr>@L("CreationTime")</tr>
-                        <tr>@L("Actions")</tr>
+                        <tr>
+                            <th>@L("Name")</th>
+                            <th>@L("EmailAddress")</th>
+                            <th>@L("Address")</th>
+                            <th>@L("CreationTime")</th>
+                            <th>@L("Actions")</th>
+                        </tr>
                     </thead>
                     <tbody>
                         @foreach (var person in Model.Items)
@@ -54,19 +55,14 @@
                                     </a>
                                     <ul class="dropdown-menu pull-right">
                                         <li><a href="#" class="waves-effect waves-block edit-person" data-user-id="@person.Id" data-toggle="modal" data-target="#PersonEditModal"><i class="material-icons">edit</i>@L("Edit")</a></li>
-                                        <li><a href="#" class="waves-effect waves-block delete-person" data-user-id="@person.Id" data-user-name="@person.Name"><i class="material-icons">delete_sweep</i>@L("Delete")</a></li>
+                                        <li><a href="#" class="waves-effect waves-block delete-person" data-user-id="@person.Id" data-person-name="@person.Name"><i class="material-icons">delete_sweep</i>@L("Delete")</a></li>
                                     </ul>
                                 </td>
-
                             </tr>
-
-
-
                         }
-
                     </tbody>
                 </table>
-                <button type="button" class="btn btn-primary btn-circle waves-effect waves-circle waves-float pull-right" data-toggle="modal" data-target="#UserCreateModal">
+                <button type="button" class="btn btn-primary btn-circle waves-effect waves-circle waves-float pull-right" data-toggle="modal" data-target="#PersonCreateModal">
                     <i class="material-icons">add</i>
                 </button>
             </div>
@@ -98,7 +94,29 @@
                                     </div>
                                 </div>
                             </div>
-                         
+
+                            <div class="row clearfix" style="margin-top:10px;">
+                                <div class="col-sm-12">
+                                    <div class="form-group form-float">
+                                        <div class="form-line">
+                                            <input class="form-control" type="text" name="EmailAddress" required maxlength="@MPACorePhoneBook.MPACorePhoneBookConsts.MaxEmailLength" minlength="2">
+                                            <label class="form-label">@L("EmailAddress")</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row clearfix" style="margin-top:10px;">
+                                <div class="col-sm-12">
+                                    <div class="form-group form-float">
+                                        <div class="form-line">
+                                            <input class="form-control" type="text" name="Address" required maxlength="@MPACorePhoneBook.MPACorePhoneBookConsts.MaxAddress" minlength="2">
+                                            <label class="form-label">@L("Address")</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
                         
                     </div>

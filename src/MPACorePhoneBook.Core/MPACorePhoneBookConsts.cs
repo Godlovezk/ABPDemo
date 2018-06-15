@@ -9,5 +9,9 @@
         public const bool MultiTenancyEnabled = false;
 
         public const int MaxNameLength = 32;
+
+        public const int MaxEmailLength = 50;
+
+        public const int MaxAddress = 80;
     }
 }
