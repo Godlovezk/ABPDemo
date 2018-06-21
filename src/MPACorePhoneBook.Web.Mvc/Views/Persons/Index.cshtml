@@ -49,17 +49,34 @@
                                 <td>@person.EmailAddress</td>
                                 <td>@person.Address</td>
                                 <td>@person.CreationTime</td>
+
                                 <td class="dropdown">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                                         <i class="material-icons">menu</i>
                                     </a>
                                     <ul class="dropdown-menu pull-right">
-                                        <li><a href="#" class="waves-effect waves-block edit-person" data-user-id="@person.Id" data-toggle="modal" data-target="#PersonEditModal"><i class="material-icons">edit</i>@L("Edit")</a></li>
-                                        <li><a href="#" class="waves-effect waves-block delete-person" data-user-id="@person.Id" data-person-name="@person.Name"><i class="material-icons">delete_sweep</i>@L("Delete")</a></li>
+                                        <li><a href="#" class="waves-effect waves-block edit-person" data-person-id="@person.Id" data-toggle="modal" data-target="#PersonCreateModal"><i class="material-icons">edit</i>@L("Edit")</a></li>
+                                        <li><a href="#" class="waves-effect waves-block delete-person" data-person-id="@person.Id" data-person-name="@person.Name"><i class="material-icons">delete_sweep</i>@L("Delete")</a></li>
                                     </ul>
                                 </td>
-                            </tr>
-                        }
+                                @if (person.PhoneNumbers.Count > 0)
+                                {
+                                <tr>
+                                    <th>电话类型</th>
+                                    <th>电话号码</th>
+                                </tr>
+                                foreach (var item in person.PhoneNumbers)
+                                {
+                                    <tr>
+                                        <td>@item.PhoneType</td>
+                                        <td>@item.Number</td>
+                                    </tr>
+                                }
+
+                            }
+
+                                </tr>
+                            }
                     </tbody>
                 </table>
                 <button type="button" class="btn btn-primary btn-circle waves-effect waves-circle waves-float pull-right" data-toggle="modal" data-target="#PersonCreateModal">
@@ -88,6 +105,7 @@
                                 <div class="col-sm-12">
                                     <div class="form-group form-float">
                                         <div class="form-line">
+                                            <input type="hidden" name="Id" />
                                             <input class="form-control" type="text" name="Name" required maxlength="@MPACorePhoneBook.MPACorePhoneBookConsts.MaxNameLength" minlength="2">
                                             <label class="form-label">@L("Name")</label>
                                         </div>
@@ -99,7 +117,7 @@
                                 <div class="col-sm-12">
                                     <div class="form-group form-float">
                                         <div class="form-line">
-                                            <input class="form-control" type="text" name="EmailAddress" required maxlength="@MPACorePhoneBook.MPACorePhoneBookConsts.MaxEmailLength" minlength="2">
+                                            <input class="form-control" type="email" name="EmailAddress" required maxlength="@MPACorePhoneBook.MPACorePhoneBookConsts.MaxEmailLength" minlength="2">
                                             <label class="form-label">@L("EmailAddress")</label>
                                         </div>
                                     </div>
@@ -110,7 +128,33 @@
                                 <div class="col-sm-12">
                                     <div class="form-group form-float">
                                         <div class="form-line">
-                                            <input class="form-control" type="text" name="Address" required maxlength="@MPACorePhoneBook.MPACorePhoneBookConsts.MaxAddress" minlength="2">
+                                            <input class="form-control" type="text" name="PhoneNumber" required maxlength="@MPACorePhoneBook.MPACorePhoneBookConsts.MaxPhoneLength" minlength="2">
+                                            <label class="form-label">@L("PhoneNumber")</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row clearfix" style="margin-top:10px;">
+                                <div class="col-sm-12">
+                                    <div class="form-group form-float">
+                                        <label>@L("PhoneNumberType")</label>
+                                        <select name="PhoneNumberType" class="form-control selectpicker">
+                                            <option value="1">移动电话</option>
+                                            <option value="2">家庭电话</option>
+                                            <option value="3">公司电话</option>
+
+                                        </select>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row clearfix" style="margin-top:10px;">
+                                <div class="col-sm-12">
+                                    <div class="form-group form-float">
+                                        <div class="form-line">
+                                            <input class="form-control" type="text" name="Address" maxlength="@MPACorePhoneBook.MPACorePhoneBookConsts.MaxAddress" minlength="2">
                                             <label class="form-label">@L("Address")</label>
                                         </div>
                                     </div>

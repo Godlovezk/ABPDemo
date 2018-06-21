@@ -8,7 +8,7 @@ using System.Text;
 
 namespace MPACorePhoneBook.PhoneBooks.PhoneNumber
 {
-    public class PhoneNumber :Entity<long>, IHasCreationTime
+    public class PhoneNumbers :Entity<long>, IHasCreationTime
     {
         /// <summary>
         /// 号码

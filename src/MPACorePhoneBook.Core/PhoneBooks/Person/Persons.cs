@@ -1,5 +1,6 @@
 ﻿using Abp.Domain.Entities;
 using Abp.Domain.Entities.Auditing;
+using MPACorePhoneBook.PhoneBooks.PhoneNumber;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -19,5 +20,9 @@ namespace MPACorePhoneBook.PhoneBooks.Person
 
         [MaxLength(200)]
         public string  Address { get; set; }
+        /// <summary>
+        /// 电话号码
+        /// </summary>
+        public ICollection<PhoneNumbers> phoneNumbers { get; set; }
     }
 }

@@ -12,6 +12,8 @@
 
         public const int MaxEmailLength = 50;
 
+        public const int MaxPhoneLength = 11;
+
         public const int MaxAddress = 80;
     }
 }

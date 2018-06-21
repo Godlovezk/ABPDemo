@@ -13,6 +13,7 @@ namespace MPACorePhoneBook.Web.Startup
         public static IWebHost BuildWebHost(string[] args)
         {
             return WebHost.CreateDefaultBuilder(args)
+             //   .UseUrls("http://localhost:9527")    
                 .UseStartup<Startup>()
                 .Build();
         }

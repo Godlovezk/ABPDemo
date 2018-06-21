@@ -23,13 +23,13 @@ namespace MPACorePhoneBook.EntityFrameworkCore
 
         public DbSet<Persons> Persons { get; set; }
 
-        public DbSet<PhoneNumber> PhoneNumbers { get; set; }
+        public DbSet<PhoneNumbers> PhoneNumbers { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Persons>().ToTable("Persons", "PB");
 
-            modelBuilder.Entity<PhoneNumber>().ToTable("PhoneNumber","PB");
+            modelBuilder.Entity<PhoneNumbers>().ToTable("PhoneNumber","PB");
 
             base.OnModelCreating(modelBuilder);
         }
