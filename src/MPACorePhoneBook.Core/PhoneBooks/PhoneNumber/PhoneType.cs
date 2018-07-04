@@ -7,19 +7,19 @@ namespace MPACorePhoneBook.PhoneBooks.PhoneNumber
     /// <summary>
     /// 电话号码类型
     /// </summary>
-    public enum PhoneType
+    public enum PhoneNumberType
     {
         /// <summary>
         /// 移动电话
         /// </summary>
-        Mobile=1,
+        Mobile = 1,
         /// <summary>
         /// 家庭
         /// </summary>
-        Home=2,
+        Home = 2,
         /// <summary>
         /// 公司
         /// </summary>
-        Company=3
+        Company = 3
     }
 }

@@ -20,7 +20,7 @@ namespace MPACorePhoneBook.PhoneBooks.PhoneNumber.Dto
         /// <summary>
         /// 类型
         /// </summary>
-        public PhoneType PhoneType { get; set; }
+        public PhoneNumberType PhoneType { get; set; }
 
     }
 }

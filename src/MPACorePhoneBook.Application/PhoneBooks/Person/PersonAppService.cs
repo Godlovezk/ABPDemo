@@ -76,7 +76,7 @@ namespace MPACorePhoneBook.PhoneBooks
 
         protected async  Task CreatPerson(PersonEditDto input)
         {
-            var entity = input.MapTo<Persons>();
+            var entity = input.MapTo<Person.Persons>();
 
             //await   _presonRepository.InsertAsync(input.MapTo<Persons>());
             await _presonRepository.InsertAsync(entity);

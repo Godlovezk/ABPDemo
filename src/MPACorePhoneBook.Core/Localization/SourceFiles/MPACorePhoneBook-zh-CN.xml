@@ -18,6 +18,13 @@
     <text name="Password" value="密码" />
     <text name="RememberMe" value="记住我" />
     <text name="LogIn" value="登录" />
+    <text name="Name" value="名字" />
+    <text name="EmailAddress" value="邮箱" />
+    <text name="Address" value="地址" />
+    <text name="CreationTime" value="添加时间" />
+    <text name="Actions" value="操作" />
+    <text name="Users" value="用户" />
+    
 
     <text name="LoginFailed" value="登录失败!" />
     

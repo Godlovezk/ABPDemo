@@ -19,11 +19,11 @@ namespace MPACorePhoneBook.PhoneBooks.PhoneNumber
         /// <summary>
         /// 类型
         /// </summary>
-        public PhoneType PhoneType { get; set; }
+        public PhoneNumberType PhoneType { get; set; }
 
         public int PersonId { get; set; }
 
-        public virtual Persons Person { get; set; }
+        public  Persons Person { get; set; }
 
         /// <summary>
         /// 创建时间

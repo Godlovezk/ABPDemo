@@ -1,5 +1,5 @@
-﻿(function () {
-
+﻿
+(function () {
     $(function () {
         var _personService = abp.services.app.person;
 
@@ -14,11 +14,9 @@
                 return;    //判定表单验证是否通过
             }
             var personEditDto = _$form.serializeFormToObject();  //序列化表单为对象
-
             personEditDto.PhoneNumbers = [];
             var phoneNumber = {};
-
-            phoneNumber.Type = personEditDto.PhoneNumberType;
+            phoneNumber.PhoneType= personEditDto.PhoneNumberType;
             phoneNumber.Number = personEditDto.PhoneNumber;
             personEditDto.PhoneNumbers.push(phoneNumber);
 
@@ -64,6 +62,8 @@
                 $("input[name=Id]").val(data.person.id);
                 $("input[name=Name]").val(data.person.name).parent().addClass("focused");
                 $("input[name=EmailAddress]").val(data.person.emailAddress).parent().addClass("focused");
+                $("input[name=PhoneNumber]").val(data.person.phoneNumbers[0].number).parent().addClass("focused");
+                $("select[name=PhoneNumberType]").selectpicker('val', data.person.phoneNumbers[0].phoneType);
                 $("input[name=Address]").val(data.person.address).parent().addClass("focused");
             })
         });
